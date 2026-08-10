@@ -13,7 +13,7 @@
     content="Johan Kornet — Sophomore Computer Engineering student at Texas A&M (Class of '29) specializing in embedded systems, controls engineering, and robotics. Based in Houston, TX." />
   <meta name="author" content="Johan Kornet" />
   <meta name="keywords"
-    content="Johan Kornet, Computer Engineering, Embedded Systems, Controls Engineering, Texas A&M, Robotics, Aerospace, C++, Python, PID, ROS2, Arduino, Linux, KrakenLib, Karura" />
+    content="Johan Kornet, Computer Engineering, Embedded Systems, Controls Engineering, Texas A&M, Robotics, Aerospace, C++, Python, PID, ROS, Controls, ROS1, ROS2, Arduino, Linux, KrakenLib, Karura" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://johan-kornet.github.io/Website/" />
 
@@ -153,11 +153,12 @@
                   Automation and Design Lab - Robotics Software Intern </a></h3>
               <p>
                 Robotics Software Intern on the Robotic Space Simulator project. <br>
-                Designed and implemented a novel computer-vision-based grasp pipeline, enabling on-demand 3D scene recreation and autonomous active scanning/grasping of a target satellite.
+                Designed and implemented a novel computer-vision-based grasp pipeline, enabling on-demand 3D scene
+                recreation and autonomous active scanning+grasping of a target satellite.
               </p>
               <ul class="Experiences__list">
                 <li>Computer Vision/Machine Learning</li>
-                <li>Robotics System Design</li>
+                <li>Robotics (Software) System Design</li>
                 <li>Software-Hardware Integration</li>
                 <li>C++/Python</li>
                 <li>ROS2</li>
@@ -165,127 +166,138 @@
                 <li>Collaborative Git Workflow</li>
               </ul>
 
-              </div>
             </div>
-            <div class="Experiences__image-box">
-              <img src="./images/rss_gig_em.jpg" class="Experiences__image" alt="Photo of me with the RSS" />
+          </div>
+
+          <div class="Experiences__image-row">
+                <img src="./images/rss_gig_em.jpg" class="Experiences__image" alt="Johan + RSS" />
+                <img src="./images/graspies.jpeg" class="Experiences__image" alt="Poster + RSS"/>
             </div>
-            <div class="Experiences__box">
-              <div class="Experiences__text">
-                <h3><a href="https://github.com/johan-kornet/KaruraArm-SpringBreak" target="_blank"
-                    style="text-decoration: none; color: inherit; transition: color 0.2s;"
-                    onmouseover="this.style.color='var(--pink)'" onmouseout="this.style.color='inherit'">Karura US - Arm
-                    Subteam</a></h3>
-                <p>
-                  Built a full ROS2 stack for Karura's 6-DOF rover arm, integrating MoveIt for motion planning, RViz for
-                  real-time 3D visualization, and Moveit Servo for real-time keyboard control. Containerized with
-                  Docker.
-                  Also developed embedded Arduino software for reading telemetry from AMT20 encoders.
-                </p>
-                <ul class="Experiences__list">
-                  <li>C++/Python</li>
-                  <li>ROS2, MoveIt, MoveIt Servo, RViz, URDF, Docker</li>
-                  <li>Embedded Systems Development</li>
-                  <li>Controls Systems (PID, Inverse Kinematics)</li>
-                  <li>Electronics Troubleshooting with COTS Components</li>
+            <br><br>
 
-                </ul>
+              
+          <!-- <div class="Experiences__image-box">
+            <img src="./images/rss_gig_em.jpg" class="Experiences__image" alt="Photo of me with the RSS" />
+          </div> -->
+          <div class="Experiences__box">
+            <div class="Experiences__text">
+              <h3><a href="https://github.com/johan-kornet/KaruraArm-SpringBreak" target="_blank"
+                  style="text-decoration: none; color: inherit; transition: color 0.2s;"
+                  onmouseover="this.style.color='var(--pink)'" onmouseout="this.style.color='inherit'">Karura US - Arm
+                  Subteam</a></h3>
+              <p>
+                Controls engineering as a software member of the Karura US Arm subteam. Designed and implemented a full
+                ROS2 stack for Karura's 6-DOF rover arm, integrating MoveIt for motion planning, RViz for
+                real-time 3D visualization, and Moveit Servo for real-time keyboard control. Containerized with
+                Docker.
+                Developed embedded Arduino software for simultaneously reading telemetry from multiple AMT20 encoders
+                through SPI protocol.
+                <br>
+                URC Finalists '26
+              </p>
+              <ul class="Experiences__list">
+                <li>C++/Python</li>
+                <li>ROS2, MoveIt, MoveIt Servo, RViz, URDF, Docker</li>
+                <li>Embedded Systems Development</li>
+                <li>Controls Systems (PID, Inverse Kinematics)</li>
+                <li>Electronics Troubleshooting with COTS Components</li>
 
-                <div class="Experiences__image-box">
-                  <div class="Experiences__image-row">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EHHoUJfvEcE?si=vfJ0wHkL33DNGAFn"
-                      title="YouTube video player" frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <img src="./images/encoders_readout.jpg" class="Experiences__image"
-                      alt="Encoder Telemetry Readout" />
+              </ul>
 
-                  </div>
-                </div>
+              <div class="Experiences__image-box">
                 <div class="Experiences__image-row">
-                  <img src="./images/encoders_physical.jpg" class="Experiences__image" alt="Physical Encoder Setup" />
-                  <iframe width="315" height="560" src="https://www.youtube.com/embed/EoOjuaFqIh0"
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EHHoUJfvEcE?si=vfJ0wHkL33DNGAFn"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <img src="./images/encoders_readout.jpg" class="Experiences__image" alt="Encoder Telemetry Readout" />
+
                 </div>
               </div>
+              <div class="Experiences__image-row">
+                <img src="./images/encoders_physical.jpg" class="Experiences__image" alt="Physical Encoder Setup" />
+                <iframe width="315" height="560" src="https://www.youtube.com/embed/EoOjuaFqIh0"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+                <!-- TODO: Add in RAD presentation/demos whenever possible -->
+              </div>
+              <br><br>
+            </div>
+            <br><br>
+            <div class="Experiences__box">
+              <div class="Experiences__text">
+                <h3><a href="https://github.com/KARURA-project/COMMS2026" target="_blank"
+                    style="text-decoration: none; color: inherit; transition: color 0.2s;"
+                    onmouseover="this.style.color='var(--pink)'" onmouseout="this.style.color='inherit'">Karura US -
+                    Communications Subteam</a></h3>
+                <p>
+                  Software and Embedded Systems Engineering as a software member of the Karura US Communications
+                  subteam.
+                  Worked on implementing NASA's cFS framework and integrating ROS2 via a RACS bridge. Developed a
+                  mission-critical rover health-monitoring application within the cFS framework.
+                </p>
+                <ul class="Experiences__list">
+                  <li>C++/C</li>
+                  <li>Embedded Systems and Communication Protocol Development</li>
+                  <li>Linux Development Environment</li>
+                  <li>Large-Team Git Workflow</li>
+                </ul>
+
+                <div class="Experiences__links">
+                  <a href="https://github.com/KARURA-project/COMMS2026" target="_blank" class="link__text">
+                    Visit Repo <span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/KARURA-project/COMMS2026" title="View Communications Repo"
+                    target="_blank">
+                    <img src="./images/github.svg" class="Experiences__code" alt="GitHub">
+                  </a>
+                </div>
+              </div>
+              <div class="Experiences__image-box">
+                <img src="./images/cFS.png" class="Experiences__image" alt="cFS Project Structure" />
+              </div>
+
               <br><br>
               <div class="Experiences__box">
                 <div class="Experiences__text">
-                  <h3><a href="https://github.com/KARURA-project/COMMS2026" target="_blank"
+                  <h3><a href="https://github.com/johan-kornet/KrakenLib" target="_blank"
                       style="text-decoration: none; color: inherit; transition: color 0.2s;"
-                      onmouseover="this.style.color='var(--pink)'" onmouseout="this.style.color='inherit'">Karura US -
-                      Communications Subteam</a></h3>
+                      onmouseover="this.style.color='var(--pink)'" onmouseout="this.style.color='inherit'">KrakenLib</a>
+                  </h3>
                   <p>
-                    Software and Embedded Systems Engineering as a software member of the Karura US Communications
-                    subteam.
-                    Worked on implementing NASA's cFS framework and integrating ROS2 via a RACS bridge. Developed a
-                    mission-critical rover health-monitoring application within the cFS framework.
+                    Open-Source advanced trajectory-planning and motion control library for VEX V5RC Robotics. I wrote
+                    this in my HS senior year as a way to gain a competitve advantage and force myself to actually
+                    learn
+                    how control systems work.
                   </p>
                   <ul class="Experiences__list">
-                    <li>C++/C</li>
-                    <li>Embedded Systems and Communication Protocol Development</li>
-                    <li>Linux Development Environment</li>
-                    <li>Large-Team Git Workflow</li>
+                    <li>Library/Framework Development</li>
+                    <li>Motion Control Algorithms (PID, RAMSETE, Bang-Bang)</li>
+                    <li>Localization (Dead-Wheel Odometry, Monte-Carlo Localization)</li>
+                    <li>Motion-Planning Algorithms (Spline Generation between Cartesian points, 2-D Motion Profile
+                      Generation)</li>
                   </ul>
 
                   <div class="Experiences__links">
-                    <a href="https://github.com/KARURA-project/COMMS2026" target="_blank" class="link__text">
-                      Visit Repo <span>&rarr;</span>
+                    <a href="https://github.com/johan-kornet/KrakenLib" target="_blank" class="link__text">
+                      Visit Site <span>&rarr;</span>
                     </a>
-                    <a href="https://github.com/KARURA-project/COMMS2026" title="View Communications Repo"
-                      target="_blank">
-                      <img src="./images/github.svg" class="Experiences__code" alt="GitHub">
+                    <a href="https://github.com/johan-kornet/KrakenLib" , target="_blank">
+                      <img src="./images/github.svg" class="Experiences__code" title="View KrakenLib Repo" alt="GitHub">
                     </a>
                   </div>
                 </div>
                 <div class="Experiences__image-box">
-                  <img src="./images/cFS.png" class="Experiences__image" alt="cFS Project Structure" />
-                </div>
-
-                <br><br>
-                <div class="Experiences__box">
-                  <div class="Experiences__text">
-                    <h3><a href="https://github.com/johan-kornet/KrakenLib" target="_blank"
-                        style="text-decoration: none; color: inherit; transition: color 0.2s;"
-                        onmouseover="this.style.color='var(--pink)'"
-                        onmouseout="this.style.color='inherit'">KrakenLib</a>
-                    </h3>
-                    <p>
-                      Open-Source advanced trajectory-planning and motion control library for VEX V5RC Robotics. I wrote
-                      this in my HS senior year as a way to gain a competitve advantage and force myself to actually
-                      learn
-                      how control systems work.
-                    </p>
-                    <ul class="Experiences__list">
-                      <li>Library/Framework Development</li>
-                      <li>Motion Control Algorithms (PID, RAMSETE, Bang-Bang)</li>
-                      <li>Localization (Dead-Wheel Odometry, Monte-Carlo Localization)</li>
-                      <li>Motion-Planning Algorithms (Spline Generation between Cartesian points, 2-D Motion Profile
-                        Generation)</li>
-                    </ul>
-
-                    <div class="Experiences__links">
-                      <a href="https://github.com/johan-kornet/KrakenLib" target="_blank" class="link__text">
-                        Visit Site <span>&rarr;</span>
-                      </a>
-                      <a href="https://github.com/johan-kornet/KrakenLib" , target="_blank">
-                        <img src="./images/github.svg" class="Experiences__code" title="View KrakenLib Repo"
-                          alt="GitHub">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="Experiences__image-box">
-                    <div class="Experiences__image-row">
-                      <img src="./images/odom.png" class="Experiences__image" alt="1380A Dead-Wheel Odometry Set-Up" />
-                      <img src="./images/Screenshot 2026-02-28 181356.png" class="Experiences__image" alt="1380A CAD" />
-                    </div>
+                  <div class="Experiences__image-row">
+                    <img src="./images/odom.png" class="Experiences__image" alt="1380A Dead-Wheel Odometry Set-Up" />
+                    <img src="./images/Screenshot 2026-02-28 181356.png" class="Experiences__image" alt="1380A CAD" />
                   </div>
                 </div>
+              </div>
 
-                <br><br>
-                <!-- <div class="Experiences__box">
+              <br><br>
+              <!-- <div class="Experiences__box">
                   <div class="Experiences__text">
                     <h3><a href="https://www.robotevents.com/teams/V5RC/1380A" target="_blank"
                         style="text-decoration: none; color: inherit; transition: color 0.2s;"
@@ -326,97 +338,95 @@
                       <img src="./images/1380A_Worlds_Aura.jpg" class="Experiences__image" alt="1380A at Worlds" />
                       <img src="./images/1380A_LB_CAD.png" class="Experiences__image" alt="1380A CAD" />
                     </div> -->
-                  </div>
-                  <br><br>
-                  <div class="Experiences__box">
-                    <div class="Experiences__text">
-                      <h3><a href="https://github.com/johan-kornet/Website" target="_blank"
-                          style="text-decoration: none; color: inherit; transition: color 0.2s;"
-                          onmouseover="this.style.color='var(--pink)'"
-                          onmouseout="this.style.color='inherit'">Website/Portfolio</a></h3>
-                      <p>
-                        The website you are currently on! I wanted to learn web development one day, so I forked a
-                        template and got to work!
-                      </p>
-                      <ul class="Experiences__list">
-                        <li>HTML</li>
-                        <li>Javascript</li>
-                        <li>CSS</li>
-                        <li>Site Analytics (GoatCounter)</li>
-                      </ul>
+            </div>
+            <br><br>
+            <div class="Experiences__box">
+              <div class="Experiences__text">
+                <h3><a href="https://github.com/johan-kornet/Website" target="_blank"
+                    style="text-decoration: none; color: inherit; transition: color 0.2s;"
+                    onmouseover="this.style.color='var(--pink)'"
+                    onmouseout="this.style.color='inherit'">Website/Portfolio</a></h3>
+                <p>
+                  The website you are currently on! I wanted to learn web development one day, so I forked a
+                  template and got to work!
+                </p>
+                <ul class="Experiences__list">
+                  <li>HTML</li>
+                  <li>Javascript</li>
+                  <li>CSS</li>
+                  <li>Site Analytics (GoatCounter)</li>
+                </ul>
 
-                      <div class="Experiences__links">
-                        <a href="https://github.com/johan-kornet/Website" class="link__text" target="_blank">
-                          Visit Site <span>&rarr;</span>
-                        </a>
-                        <a href="https://github.com/johan-kornet/Website" target="_blank">
-                          <img src="./images/github.svg" class="Experiences__code" title="View Website Repo"
-                            alt="GitHub">
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="Experiences__image-box">
-                      <a href=""></a>
-                      <img src="./images/Screenshot 2026-03-02 160533.png" class="Experiences__image"
-                        alt="Site Analytics" />
-                      <p>Live Traffic: <span id="visit-count">...</span> Total Visitors </p>
-                    </div>
-                  </div>
-                  <div class="Experiences__box">
-                    <div class="Experiences__text">
-                      <h3><a href="https://johan-kornet.github.io/wire-manager/" target="_blank"
-                          style="text-decoration: none; color: inherit; transition: color 0.2s;"
-                          onmouseover="this.style.color='var(--pink)'" onmouseout="this.style.color='inherit'">Wire
-                          Manager</a></h3>
-                      <p>
-                        As a software member of Karura, I got annoyed with trying to figure out electrical wiring, so I
-                        created a tool to do it for me.
-                        <br>
-                        Simply pick a set of common robotics COTS components and see how to wire them up!
-                        <br>
-                        Supports uploading new parts in the form of datasheets (utilizing an AI-powered parser) and
-                        formatted JSON.
-                        <br>
-                        Supports import/export of generated pinout information
-                      </p>
-                      <ul class="Experiences__list">
-                        <li>HTML</li>
-                        <li>Javascript</li>
-                        <li>CSS</li>
-                        <li>JSON</li>
-                      </ul>
-
-                      <div class="Experiences__links">
-                        <a href="https://johan-kornet.github.io/wire-manager/" class="link__text" target="_blank">
-                          Visit Site <span>&rarr;</span>
-                        </a>
-                        <a href="https://github.com/johan-kornet/wire-manager" target="_blank">
-                          <img src="./images/github.svg" class="Experiences__code" title="View Wire Manager Repo"
-                            alt="GitHub">
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="Experiences__image-box">
-                      <div class="Experiences__image-row">
-
-                        <a href=""></a>
-                        <img src="./images/Screenshot 2026-03-04 212240.png" class="Experiences__image"
-                          alt="Wire Manager Screenshot" />
-                        <img src="./images/Screenshot 2026-03-04 212438.png" class="Experiences__image"
-                          alt="Wire Manager Screenshot" />
-                      </div>
-                      <img src="./images/Screenshot 2026-03-04 212526.png" class="Experiences__image"
-                        alt="Wire Manager Screenshot" />
-                    </div>
-                  </div>
-
+                <div class="Experiences__links">
+                  <a href="https://github.com/johan-kornet/Website" class="link__text" target="_blank">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/johan-kornet/Website" target="_blank">
+                    <img src="./images/github.svg" class="Experiences__code" title="View Website Repo" alt="GitHub">
+                  </a>
                 </div>
               </div>
+
+              <div class="Experiences__image-box">
+                <a href=""></a>
+                <img src="./images/Screenshot 2026-03-02 160533.png" class="Experiences__image" alt="Site Analytics" />
+                <p>Live Traffic: <span id="visit-count">...</span> Total Visitors </p>
+              </div>
             </div>
+            <div class="Experiences__box">
+              <div class="Experiences__text">
+                <h3><a href="https://johan-kornet.github.io/wire-manager/" target="_blank"
+                    style="text-decoration: none; color: inherit; transition: color 0.2s;"
+                    onmouseover="this.style.color='var(--pink)'" onmouseout="this.style.color='inherit'">Wire
+                    Manager</a></h3>
+                <p>
+                  As a software member of Karura, I got annoyed with trying to figure out electrical wiring, so I
+                  created a tool to do it for me.
+                  <br>
+                  Simply pick a set of common robotics COTS components and see how to wire them up!
+                  <br>
+                  Supports uploading new parts in the form of datasheets (utilizing an AI-powered parser) and
+                  formatted JSON.
+                  <br>
+                  Supports import/export of generated pinout information
+                </p>
+                <ul class="Experiences__list">
+                  <li>HTML</li>
+                  <li>Javascript</li>
+                  <li>CSS</li>
+                  <li>JSON</li>
+                </ul>
+
+                <div class="Experiences__links">
+                  <a href="https://johan-kornet.github.io/wire-manager/" class="link__text" target="_blank">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/johan-kornet/wire-manager" target="_blank">
+                    <img src="./images/github.svg" class="Experiences__code" title="View Wire Manager Repo"
+                      alt="GitHub">
+                  </a>
+                </div>
+              </div>
+
+              <div class="Experiences__image-box">
+                <div class="Experiences__image-row">
+
+                  <a href=""></a>
+                  <img src="./images/Screenshot 2026-03-04 212240.png" class="Experiences__image"
+                    alt="Wire Manager Screenshot" />
+                  <img src="./images/Screenshot 2026-03-04 212438.png" class="Experiences__image"
+                    alt="Wire Manager Screenshot" />
+                </div>
+                <img src="./images/Screenshot 2026-03-04 212526.png" class="Experiences__image"
+                  alt="Wire Manager Screenshot" />
+              </div>
+            </div>
+
           </div>
         </div>
+      </div>
+      </div>
+      </div>
       </div>
     </section>
 
@@ -467,10 +477,8 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Are you a recruiter, fellow engineer, or just someone who wants to connect? Whether you have
-          opportunities in controls or embedded systems, want to collaborate on a project, or just want
-          to say "Howdy" - feel free to reach out! The quickest way to
-          reach me is via email. Thanks and Gig 'Em!
+          If you want to connect, the quickest way to
+          reach me is via email. <br>Thanks and Gig 'Em!
         </p>
         <a href="mailto:johankornet@tamu.edu" class="btn">johankornet@tamu.edu</a>
       </div>
