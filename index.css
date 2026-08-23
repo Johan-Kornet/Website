@@ -21,7 +21,33 @@
     padding: 0;
     box-sizing: inherit;
 }
+.Experiences__list {
+    list-style-position: outside;
+    padding-left: 3rem;
+    margin-bottom: var(--gutter-normal);
+}
 
+.Experiences__list li {
+    margin-bottom: 0.5rem;
+}
+.container {
+  /* For Firefox and Edge (older versions) */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* For Chrome, Safari, and newer Edge */
+.container::-webkit-scrollbar {
+  display: none;
+}   
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
 :root {
     --font-size-small: 1.8rem;
     --font-size-normal: 2.2rem;
